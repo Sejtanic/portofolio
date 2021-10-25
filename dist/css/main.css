@@ -627,12 +627,3 @@ footer {
     font-size: 20px;
   }
 }
-
-@media (max-width: 500px) {
-  form {
-    grid-template-columns: 1fr;
-  }
-  & > *:nth-child(6) {
-    grid-column: 1;
-  }
-}
