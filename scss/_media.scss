@@ -1,0 +1,110 @@
+@media (max-width: 769px) {
+  #logo {
+    padding: 15px;
+  }
+  ul {
+    li {
+      padding: 15px 15px;
+    }
+  }
+  #main-nav {
+    flex-direction: column;
+  }
+  .container {
+    height: 50vh;
+  }
+  #header {
+    &-home {
+      height: 50vh;
+    }
+    &-iner {
+      height: 20vh;
+    }
+  }
+  .header-content {
+    align-items: center;
+    justify-content: start;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  // section a
+  .info-2 {
+    grid-template-columns: 1fr;
+  }
+  // section b
+  .section-b {
+    grid-template-columns: 1fr;
+  }
+  // section c
+  .project-menagment {
+    grid-template-columns: 1fr;
+  }
+  // footer
+  .cont {
+    flex-direction: column;
+    .social {
+      margin-top: 20px;
+    }
+  }
+
+  // about
+  .about-grid {
+    grid-template-columns: 1fr;
+    & > *:first-child {
+      grid-column: 1;
+    }
+    & > *:nth-child(3) {
+      grid-column: 1;
+    }
+  }
+  // logos
+  .logos-cont {
+    grid-template-columns: 1fr 1fr;
+  }
+  // testemonials
+  .test-box {
+    grid-template-columns: 1fr;
+    & > *:first-child {
+      grid-column: 1;
+    }
+    & > *:last-child {
+      grid-column: 1;
+    }
+  }
+  .test-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // work
+  .galery-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .item {
+    &:hover {
+      .item-2 {
+        .item-3 {
+          font-size: 15px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+  // contact-info
+  .main-info-cont {
+    grid-template-columns: 1fr;
+    .mine-info-1 {
+      border-bottom: solid 1px grey;
+    }
+  }
+
+  .new-project {
+    p {
+      font-size: 20px;
+    }
+  }
+}
