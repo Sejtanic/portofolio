@@ -523,6 +523,12 @@ footer {
       width: 100%;
     }
   }
+  .submit {
+    background-color: $dark-color;
+    color: $medium-color;
+    text-align: center;
+    height: 25px;
+  }
   & > *:nth-child(5) {
     grid-column: 1 / span 2;
   }

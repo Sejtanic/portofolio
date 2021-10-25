@@ -413,6 +413,11 @@ footer {
     height: 25px; }
   .form .label textarea {
     width: 100%; }
+  .form .submit {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    height: 25px; }
   .form > *:nth-child(5) {
     grid-column: 1 / span 2; }
 
