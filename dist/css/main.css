@@ -413,7 +413,7 @@ footer {
     height: 25px; }
   .form .label textarea {
     width: 100%; }
-  .form > *:last-child {
+  .form > *:nth-child(5) {
     grid-column: 1 / span 2; }
 
 .mine-info {

@@ -523,7 +523,7 @@ footer {
       width: 100%;
     }
   }
-  & > *:last-child {
+  & > *:nth-child(5) {
     grid-column: 1 / span 2;
   }
 }
