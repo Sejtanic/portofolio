@@ -418,7 +418,7 @@ footer {
     color: #ccc;
     text-align: center;
     height: 25px; }
-  .form > *:nth-child(5) {
+  .form > *:nth-child(6) {
     grid-column: 1 / span 2; }
 
 .mine-info {
